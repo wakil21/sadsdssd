@@ -12,5 +12,6 @@ public class IciciTest
     	System.out.println( "Hello ICICI World!" );
     	System.out.println( "Hello ICICI World222qwewewe" );
     	System.out.println( "-----------------------------------" );
+    	System.out.println( "Hello ICICI World222qwewewe" );
     }
 }
