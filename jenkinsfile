@@ -5,6 +5,7 @@ pipeline {
           stage('build'){
             steps {
                 echo 'Builship'
+              git  'https://github.com/wakil21/sadsdssd.git'
                   }
                        }
             stage('test'){
