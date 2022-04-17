@@ -9,19 +9,19 @@ import org.springframework.stereotype.Service;
 public class WishMessageServiceImpl implements WishMessageService {
 
 	@Override
-	public String generateWishMsg() {
+	public String generateWishMsg(String name) {
 
 		LocalDateTime dt=LocalDateTime.now();
 		int hour=dt.getHour();
 		if(hour<12)
-			return "Good morning "+hour;
+			return "Good morning "+name+":::"+hour;
 		else if (hour<=14) {
-			return "Good Afternoon";
+			return "Good Afternoon"+name+":::"+hour;
 		}
 		else if(hour <=20)
-			return "Good Evening";
+			return "Good Evening"+name+":::"+hour;
 		else
-			return "Good Night";
+			return "Good Night"+name+":::"+hour;
 			
 		
 		

@@ -2,5 +2,5 @@ package com.wk.service;
 
 public interface WishMessageService {
 
-	public String generateWishMsg();
+	public String generateWishMsg(String name);
 }
