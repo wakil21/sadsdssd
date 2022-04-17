@@ -52,10 +52,10 @@ public class ShowHomeController {
 	 */
 	
 	
-	  @RequestMapping("/wish/{name}")
+	  @RequestMapping("/wish")
 	  
-	  public String getMessage(Map<String,Object> map,@PathVariable("name") String name) {
-	  
+	  public String getMessage(Map<String,Object> map) {
+	  String name="Wakil";
 	  String result=service.generateWishMsg(name);
 	  map.put("wMsg", result);
 	  

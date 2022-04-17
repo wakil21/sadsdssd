@@ -4,4 +4,4 @@
 
 <h1 style=color:red;text-align:center> WELCOME TO BOOT SPRING MVC</h1>
 <br>
-<a href="wish/wakil">get Wish message</a>
+<a href="wish">get Wish message</a>
